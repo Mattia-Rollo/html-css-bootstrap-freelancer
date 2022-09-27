@@ -1,0 +1,36 @@
+.red {
+    background-color: red;
+}
+body {
+    background-color: white;
+    color: rgb(209, 209, 209);
+}
+
+.bg-green {
+    background-color: rgb(50, 184, 50);
+}
+.bg-grey {
+    background-color: rgb(116, 117, 116);
+}
+.my-bg-black {
+    background-color: rgb(65, 65, 65);
+}
+
+/* MAIN  */
+
+/* main {
+    margin-top: 100px;
+} */
+
+/* HEADER  */
+
+header {
+    background-color: rgb(65, 65, 65);
+    position: fixed;
+    height: 90px;
+    top: 0;
+    width: 100%;
+}
+#hero {
+    padding-top: 100px;
+}
