@@ -29,7 +29,9 @@ body {
 .bg-blue-grey {
     background-color: var(--blue-grey)
 }
-
+#portfolio hr {
+    border-color: var(--blue-grey)!important;
+}
 
 /* MAIN  */
 
