@@ -33,6 +33,18 @@ body {
     border-color: var(--blue-grey)!important;
 }
 
+hr:after {
+    background: rgb(107, 137, 111);
+    content: '$';
+    padding: 0 4px;
+    border-radius: 50%;
+    position: relative;
+    top: -13px;
+}
+hr {
+    height: 5px;
+    overflow: visible;
+}
 /* MAIN  */
 
 /* main {
@@ -47,6 +59,7 @@ header {
     height: 90px;
     top: 0;
     width: 100%;
+    z-index: 1100;
 }
 #hero {
     padding-top: 100px;
