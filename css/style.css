@@ -51,7 +51,6 @@ nav .nav-link
  {
     color: white;
 }
-i {
-    font-size: 1.8rem;
-    padding: 1.5rem;
+img.avatar{
+    width: 70%;
 }
