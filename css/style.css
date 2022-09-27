@@ -1,3 +1,15 @@
+:root {
+
+    /* Color styles */
+--green: rgba(26, 188, 156, 1);
+--blue-grey: rgba(58, 84, 109, 1);
+--dark-blue: rgba(44, 62, 80, 1);
+
+}
+
+
+
+
 .red {
     background-color: red;
 }
@@ -7,14 +19,15 @@ body {
 }
 
 .bg-green {
-    background-color: rgb(50, 184, 50);
+    background-color:  var(--green);
 }
 .bg-grey {
-    background-color: rgb(116, 117, 116);
+    background-color: var(--dark-blue);
 }
-.my-bg-black {
-    background-color: rgb(65, 65, 65);
+.bg-blue-grey {
+    background-color: var(--blue-grey)
 }
+
 
 /* MAIN  */
 
