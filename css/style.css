@@ -101,3 +101,13 @@ img.avatar{
 .layover-container:hover::after {
     opacity: 0.8;
 }
+#about .btn{
+    border-color: var(--white);
+    color: var(--white);
+    transition: all 1ms;
+}
+#about .btn:hover {
+    background-color: transparent;
+    color: var(--dark-blue);
+    border-color: var(--dark-blue);
+}
