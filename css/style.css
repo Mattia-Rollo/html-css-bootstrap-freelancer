@@ -81,7 +81,7 @@ nav i:hover {
     color: var(--green);
 }
 img.avatar{
-    width: 70%;
+    width: 50%;
     }
 .layover-container {
     cursor: pointer;
@@ -132,4 +132,11 @@ img.avatar{
     margin: 0 5px;
     border-radius: 50%;
     border: 1px solid var(--white);
+}
+footer a {
+    text-decoration: none;
+    color: var(--green);
+}
+footer a:hover {
+    color: var(--dark-blue);
 }
