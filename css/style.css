@@ -33,17 +33,18 @@ body {
     border-color: var(--blue-grey)!important;
 }
 
-hr:after {
+/* piccola decorazione che si può mettere in mezzo al hr  */
+/* hr:after {
     background: rgb(107, 137, 111);
     content: '$';
     padding: 0 4px;
     border-radius: 50%;
     position: relative;
     top: -13px;
-}
+} */
 hr {
     height: 5px;
-    overflow: visible;
+    /* overflow: visible; */
 }
 /* MAIN  */
 
@@ -61,6 +62,7 @@ header {
     top: 0;
     width: 100%;
     z-index: 1100;
+    background-color: var(--dark-blue);
 }
 #hero {
     padding-top: 100px;
@@ -69,6 +71,33 @@ nav .nav-link
     {
     color: white;
     }
+nav .nav-link:hover {
+    color: var(--green);
+}
+nav i:hover {
+    color: var(--green);
+}
 img.avatar{
     width: 70%;
     }
+.layover-container {
+    cursor: pointer;
+    
+} 
+.layover-container::after {
+    content: '+';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: var(--green);
+    opacity: 0;
+    font-size: 5rem;
+    transition: opacity 1000ms;
+}
+.layover-container:hover::after {
+    opacity: 0.8;
+}
