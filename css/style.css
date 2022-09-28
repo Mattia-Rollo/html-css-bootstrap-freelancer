@@ -56,7 +56,8 @@ hr {
 header {
     background-color: rgb(65, 65, 65);
     position: fixed;
-    height: 90px;
+    /* height: 90px; */
+    padding: 10px;
     top: 0;
     width: 100%;
     z-index: 1100;
@@ -65,9 +66,9 @@ header {
     padding-top: 100px;
 }
 nav .nav-link
- {
+    {
     color: white;
-}
+    }
 img.avatar{
     width: 70%;
-}
+    }
